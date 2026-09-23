@@ -1,7 +1,7 @@
 # Job Market Intelligence & Skills Gap Analyzer
 
-An end-to-end data analytics project that analyzes job market trends, in-demand skills, salaries, locations, and skill gaps using Python, SQL, NLP, and Power BI.
+End-to-end job market intelligence project analyzing job demand, salaries, skills, locations, employment types, and remote work using Python, SQL, SQLite, and Power BI.
 
 ## Project Status
 
-🚧 Project under development
+🚧 Project Completed

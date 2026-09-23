@@ -1,12 +1,17 @@
-# Virtual environment
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
 
 # Python cache
 __pycache__/
 *.py[cod]
+*$py.class
 
-# VS Code
+# VS Code / IDEs
 .vscode/
+.idea/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -15,12 +20,27 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Environment / secrets
+# Environment variables / secrets
 .env
-*.env
+.env.*
 
-# Temporary files
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs / temporary files
 *.log
+*.tmp
+*.temp
 
 # Project data
 data/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI temporary files
+*.pbit
